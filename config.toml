@@ -3,9 +3,10 @@ PORT = 3001 # Port to run the server on
 SIMILARITY_MEASURE = "cosine" # "cosine" or "dot"
 
 [API_KEYS]
-api_key = "${GROQ_API_KEY}"
-api_key = "${OPENAI_API_KEY}"
-api_key = "${ANTHROPIC_API_KEY}"
+groq_api_key = "${GROQ_API_KEY}"
+openai_api_key = "${OPENAI_API_KEY}"
+anthropic_api_key = "${ANTHROPIC_API_KEY}"
+
 
 
 [API_ENDPOINTS]
